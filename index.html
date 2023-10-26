@@ -1,34 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="App.css">
-    <title>Регистрация</title>
+    <title>Сайт для статей</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="centered-panel">
-        <div class="usercard">
-            <h2>Регистрация</h2>
-            <form>
-                <div class="form-group">
-                    <label for="username">Имя пользователя</label>
-                    <input type="text" id="username" name="username" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" required>
-                </div>
-                <div class="form-group">
-                    <label for="password">Пароль</label>
-                    <input type="password" id="password" name="password" required>
-                </div>
-                <button type="submit">Зарегистрироваться</button>
-            </form>
-        </div>
-    </div>
+    <header>
+        <h1>Заголовок сайта</h1>
+    </header>
 
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script src="App.js"></script>
+    <main>
+        <button id="addArticleBtn">Добавить статью</button>
+
+        <div id="articleList">
+            <!-- Список статей будет отображаться здесь -->
+        </div>
+    </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
