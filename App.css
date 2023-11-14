@@ -1,0 +1,10 @@
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar-toggler {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
